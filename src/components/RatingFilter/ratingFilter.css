@@ -1,0 +1,20 @@
+.rating-filter {
+    margin-top: 15px;
+  }
+  
+  .star-container {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: lightgray;
+    font-size: 1.5em;
+    transition: color 0.2s;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
